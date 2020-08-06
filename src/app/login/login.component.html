@@ -1,0 +1,14 @@
+<form>
+    User Name: <input [(ngModel)]=userName type='text' name='nm'/><br><br>
+    User Password: <input [(ngModel)]=userPass type='password' name='ps'/><br>
+    <button type='submit' (click)='checkLogin()'>Submit</button>
+</form>
+
+<div *ngIf='valid'>
+    <p>Login Successful</p>
+    
+</div>
+
+<div *ngIf='!valid'>
+    <p>Login Not Successful</p>
+</div>
