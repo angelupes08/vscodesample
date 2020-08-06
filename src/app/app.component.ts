@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
   <!--<app-greet></app-greet>-->
   <!--<app-login></app-login>-->
   <!-- <app-todo></app-todo>-->
+  <p>This is angular</p>
   <app-greetings></app-greetings>
   
   `,
